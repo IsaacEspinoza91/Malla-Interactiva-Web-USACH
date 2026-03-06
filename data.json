@@ -9,7 +9,7 @@
     "asignaturas": [
         {
             "id": 0,
-            "nombre": "Cálculo 1",
+            "nombre": "Cálculo I",
             "semestre": 1,
             "prerrequisitos": [],
             "abre_a": [
@@ -19,7 +19,7 @@
         },
         {
             "id": 1,
-            "nombre": "Algebra 1",
+            "nombre": "Algebra I",
             "semestre": 1,
             "prerrequisitos": [],
             "abre_a": [
@@ -29,7 +29,7 @@
         },
         {
             "id": 2,
-            "nombre": "Física 1",
+            "nombre": "Física I",
             "semestre": 1,
             "prerrequisitos": [],
             "abre_a": [
@@ -66,7 +66,7 @@
         },
         {
             "id": 6,
-            "nombre": "Cálculo 2",
+            "nombre": "Cálculo II",
             "semestre": 2,
             "prerrequisitos": [
                 0
@@ -79,7 +79,7 @@
         },
         {
             "id": 7,
-            "nombre": "Algebra 2",
+            "nombre": "Algebra II",
             "semestre": 2,
             "prerrequisitos": [
                 1
@@ -90,7 +90,7 @@
         },
         {
             "id": 8,
-            "nombre": "Física 2",
+            "nombre": "Física II",
             "semestre": 2,
             "prerrequisitos": [
                 2
@@ -156,7 +156,7 @@
         },
         {
             "id": 14,
-            "nombre": "Inglés 1",
+            "nombre": "Inglés I",
             "semestre": 3,
             "prerrequisitos": [
                 5
@@ -262,7 +262,7 @@
         },
         {
             "id": 23,
-            "nombre": "Inglés 2",
+            "nombre": "Inglés II",
             "semestre": 4,
             "prerrequisitos": [
                 14
@@ -319,7 +319,7 @@
         },
         {
             "id": 28,
-            "nombre": "Inglés 3",
+            "nombre": "Inglés III",
             "semestre": 5,
             "prerrequisitos": [
                 23
@@ -404,7 +404,7 @@
         },
         {
             "id": 35,
-            "nombre": "Inglés 4",
+            "nombre": "Inglés IV",
             "semestre": 6,
             "prerrequisitos": [
                 28
@@ -437,7 +437,7 @@
         },
         {
             "id": 38,
-            "nombre": "Tópico 1",
+            "nombre": "Tópico I",
             "semestre": 7,
             "prerrequisitos": [
                 34,
@@ -447,7 +447,7 @@
         },
         {
             "id": 39,
-            "nombre": "Tópico 2",
+            "nombre": "Tópico II",
             "semestre": 7,
             "prerrequisitos": [
                 34,
@@ -457,7 +457,7 @@
         },
         {
             "id": 40,
-            "nombre": "Tópico 3",
+            "nombre": "Tópico III",
             "semestre": 7,
             "prerrequisitos": [
                 34,
