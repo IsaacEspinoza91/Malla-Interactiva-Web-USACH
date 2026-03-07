@@ -114,9 +114,9 @@ const statuses = computed(() => {
 .semester-header {
   text-align: center;
   font-weight: 600;
-  color: var(--text-secondary);
+  color: var(--color-orange);
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--color-gray-medium);
+  border-bottom: 2px solid var(--color-orange);
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
