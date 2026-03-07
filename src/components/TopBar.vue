@@ -21,7 +21,7 @@ const uniqueCareers = computed(() => {
   for (const c of props.careers) {
     if (!seen.has(c.codigo)) {
       seen.add(c.codigo);
-      arr.push({ codigo: c.codigo, carrera: c.carrera });
+      arr.push({ codigo: c.codigo, carrera: `${c.carrera} - ${c.universidad}` });
     }
   }
   return arr;
