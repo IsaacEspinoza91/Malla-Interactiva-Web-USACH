@@ -256,4 +256,14 @@ const handleToggleApprove = (courseId) => {
   color: var(--color-orange);
   transform: translateY(-2px);
 }
+
+@media (max-width: 768px) {
+  .app-container {
+    gap: 1rem;
+  }
+  .main-content {
+    padding: 1rem 0.5rem;
+    border-radius: 8px;
+  }
+}
 </style>

@@ -109,6 +109,9 @@ const availablePlans = computed(() => {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  flex: 1 1 auto;
+  min-width: 150px;
+  max-width: 100%;
 }
 
 .select-group label {
@@ -120,7 +123,11 @@ const availablePlans = computed(() => {
 }
 
 .select-group select {
-  min-width: 180px;
+  width: 100%;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
   background-color: var(--color-gray-light);
   border: 1px solid transparent;
 }
