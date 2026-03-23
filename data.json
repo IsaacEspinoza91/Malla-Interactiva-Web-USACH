@@ -138,6 +138,29 @@
                                 ]
                             },
                             {
+                                "id": 10115,
+                                "nombre": "Análisis Estadístico para Ingeniería",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10107
+                                ],
+                                "abre_a": [
+                                    13252
+                                ]
+                            },
+                            {
+                                "id": 10123,
+                                "nombre": "Ecuaciones Diferenciales y Métodos Numéricos para Ingeniería",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10107,
+                                    10110
+                                ],
+                                "abre_a": [
+                                    13288
+                                ]
+                            },
+                            {
                                 "id": 10127,
                                 "nombre": "Electricidad y Magnetismo para Ingeniería",
                                 "semestre": 3,
@@ -172,18 +195,6 @@
                                 ]
                             },
                             {
-                                "id": 10123,
-                                "nombre": "Ecuaciones Diferenciales y Métodos Numéricos para Ingeniería",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    10107,
-                                    10110
-                                ],
-                                "abre_a": [
-                                    13288
-                                ]
-                            },
-                            {
                                 "id": 13201,
                                 "nombre": "Métodos de programación",
                                 "semestre": 3,
@@ -194,17 +205,6 @@
                                 "abre_a": [
                                     13204,
                                     13205
-                                ]
-                            },
-                            {
-                                "id": 10115,
-                                "nombre": "Análisis Estadístico para Ingeniería",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    10107
-                                ],
-                                "abre_a": [
-                                    13252
                                 ]
                             },
                             {
@@ -492,347 +492,6 @@
                                 "semestre": 8,
                                 "prerrequisitos": [
                                     13276
-                                ],
-                                "abre_a": []
-                            }
-                        ]
-                    },
-                    {
-                        "plan": "2002.1",
-                        "configuracion": {
-                            "total_semestres": 8
-                        },
-                        "asignaturas": [
-                            {
-                                "id": 10051,
-                                "nombre": "Cálculo Aplicado",
-                                "semestre": 1,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    10057,
-                                    10060,
-                                    10061
-                                ]
-                            },
-                            {
-                                "id": 10052,
-                                "nombre": "Matemáticas General",
-                                "semestre": 1,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    10061,
-                                    13056
-                                ]
-                            },
-                            {
-                                "id": 10054,
-                                "nombre": "Introducción a la Química",
-                                "semestre": 1,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    10061
-                                ]
-                            },
-                            {
-                                "id": 13052,
-                                "nombre": "Física General - Informática",
-                                "semestre": 1,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    10061
-                                ]
-                            },
-                            {
-                                "id": 13051,
-                                "nombre": "Introducción a la Programación",
-                                "semestre": 2,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    10058,
-                                    13053,
-                                    10061,
-                                    13054
-                                ]
-                            },
-                            {
-                                "id": 10057,
-                                "nombre": "Matemáticas Aplicadas",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    10051
-                                ],
-                                "abre_a": [
-                                    10067
-                                ]
-                            },
-                            {
-                                "id": 10058,
-                                "nombre": "Métodos Gráficos Computacionales",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    13051
-                                ],
-                                "abre_a": [
-                                    10067,
-                                    13069
-                                ]
-                            },
-                            {
-                                "id": 10060,
-                                "nombre": "Introducción a la Economía",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    10051
-                                ],
-                                "abre_a": [
-                                    10062,
-                                    13054,
-                                    13071,
-                                    10067
-                                ]
-                            },
-                            {
-                                "id": 13053,
-                                "nombre": "Lenguajes de Programación",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    13051
-                                ],
-                                "abre_a": [
-                                    13055,
-                                    13060,
-                                    10067
-                                ]
-                            },
-                            {
-                                "id": 10061,
-                                "nombre": "Taller de Desarrollo Personal",
-                                "semestre": 4,
-                                "prerrequisitos": [
-                                    10051,
-                                    10052,
-                                    10054,
-                                    13051,
-                                    13052
-                                ],
-                                "abre_a": [
-                                    10064
-                                ]
-                            },
-                            {
-                                "id": 10062,
-                                "nombre": "Administración",
-                                "semestre": 4,
-                                "prerrequisitos": [
-                                    10060
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13054,
-                                "nombre": "Teoría de Sistemas",
-                                "semestre": 4,
-                                "prerrequisitos": [
-                                    10060,
-                                    13051
-                                ],
-                                "abre_a": [
-                                    13068
-                                ]
-                            },
-                            {
-                                "id": 13055,
-                                "nombre": "Algoritmos y Estructuras de Datos I",
-                                "semestre": 4,
-                                "prerrequisitos": [
-                                    13053
-                                ],
-                                "abre_a": [
-                                    13059,
-                                    13061
-                                ]
-                            },
-                            {
-                                "id": 13056,
-                                "nombre": "Sistemas Digitales",
-                                "semestre": 4,
-                                "prerrequisitos": [
-                                    10052
-                                ],
-                                "abre_a": [
-                                    13057
-                                ]
-                            },
-                            {
-                                "id": 13057,
-                                "nombre": "Estructura de Computadores",
-                                "semestre": 5,
-                                "prerrequisitos": [
-                                    13056
-                                ],
-                                "abre_a": [
-                                    13063,
-                                    13064,
-                                    13069
-                                ]
-                            },
-                            {
-                                "id": 13059,
-                                "nombre": "Bases de Datos",
-                                "semestre": 5,
-                                "prerrequisitos": [
-                                    13055
-                                ],
-                                "abre_a": [
-                                    13062,
-                                    13065,
-                                    13069
-                                ]
-                            },
-                            {
-                                "id": 13060,
-                                "nombre": "Procesamiento de Lenguajes Formales",
-                                "semestre": 5,
-                                "prerrequisitos": [
-                                    13053
-                                ],
-                                "abre_a": [
-                                    13069
-                                ]
-                            },
-                            {
-                                "id": 13061,
-                                "nombre": "Algoritmos y Estructuras de Datos II",
-                                "semestre": 5,
-                                "prerrequisitos": [
-                                    13055
-                                ],
-                                "abre_a": [
-                                    13069
-                                ]
-                            },
-                            {
-                                "id": 13071,
-                                "nombre": "Contabilidad y Costos",
-                                "semestre": 5,
-                                "prerrequisitos": [
-                                    10060
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 10067,
-                                "nombre": "Epistemología",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    10057,
-                                    10058,
-                                    10060,
-                                    13053
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13062,
-                                "nombre": "Ingeniería de Software",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    13059
-                                ],
-                                "abre_a": [
-                                    13066,
-                                    13067
-                                ]
-                            },
-                            {
-                                "id": 13063,
-                                "nombre": "Sistemas Operativos",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    13057
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13064,
-                                "nombre": "Redes Computacionales",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    13057
-                                ],
-                                "abre_a": [
-                                    13066,
-                                    13068
-                                ]
-                            },
-                            {
-                                "id": 13065,
-                                "nombre": "Electivo Profesional I",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    13059
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13066,
-                                "nombre": "Taller de Sistemas Distribuidos",
-                                "semestre": 7,
-                                "prerrequisitos": [
-                                    13062,
-                                    13064
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13067,
-                                "nombre": "Electivo Profesional II",
-                                "semestre": 7,
-                                "prerrequisitos": [
-                                    13062
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13068,
-                                "nombre": "Electivo Profesional III",
-                                "semestre": 7,
-                                "prerrequisitos": [
-                                    13054,
-                                    13064
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13069,
-                                "nombre": "Seminario de Proyecto de Título",
-                                "semestre": 7,
-                                "prerrequisitos": [
-                                    13057,
-                                    10058,
-                                    13059,
-                                    13060,
-                                    13061
-                                ],
-                                "abre_a": [
-                                    13070
-                                ]
-                            },
-                            {
-                                "id": 10064,
-                                "nombre": "Taller de Manejo de Desarrollo de RRHH",
-                                "semestre": 8,
-                                "prerrequisitos": [
-                                    10061
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13070,
-                                "nombre": "Proyecto de Título",
-                                "semestre": 8,
-                                "prerrequisitos": [
-                                    13069
                                 ],
                                 "abre_a": []
                             }
@@ -1311,6 +970,347 @@
                                 "abre_a": []
                             }
                         ]
+                    },
+                    {
+                        "plan": "2002.1",
+                        "configuracion": {
+                            "total_semestres": 8
+                        },
+                        "asignaturas": [
+                            {
+                                "id": 10051,
+                                "nombre": "Cálculo Aplicado",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10057,
+                                    10060,
+                                    10061
+                                ]
+                            },
+                            {
+                                "id": 10052,
+                                "nombre": "Matemáticas General",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10061,
+                                    13056
+                                ]
+                            },
+                            {
+                                "id": 10054,
+                                "nombre": "Introducción a la Química",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10061
+                                ]
+                            },
+                            {
+                                "id": 13052,
+                                "nombre": "Física General - Informática",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10061
+                                ]
+                            },
+                            {
+                                "id": 13051,
+                                "nombre": "Introducción a la Programación",
+                                "semestre": 2,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10058,
+                                    13053,
+                                    10061,
+                                    13054
+                                ]
+                            },
+                            {
+                                "id": 10057,
+                                "nombre": "Matemáticas Aplicadas",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10051
+                                ],
+                                "abre_a": [
+                                    10067
+                                ]
+                            },
+                            {
+                                "id": 10058,
+                                "nombre": "Métodos Gráficos Computacionales",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    13051
+                                ],
+                                "abre_a": [
+                                    10067,
+                                    13069
+                                ]
+                            },
+                            {
+                                "id": 10060,
+                                "nombre": "Introducción a la Economía",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10051
+                                ],
+                                "abre_a": [
+                                    10062,
+                                    13054,
+                                    13071,
+                                    10067
+                                ]
+                            },
+                            {
+                                "id": 13053,
+                                "nombre": "Lenguajes de Programación",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    13051
+                                ],
+                                "abre_a": [
+                                    13055,
+                                    13060,
+                                    10067
+                                ]
+                            },
+                            {
+                                "id": 10061,
+                                "nombre": "Taller de Desarrollo Personal",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10051,
+                                    10052,
+                                    10054,
+                                    13051,
+                                    13052
+                                ],
+                                "abre_a": [
+                                    10064
+                                ]
+                            },
+                            {
+                                "id": 10062,
+                                "nombre": "Administración",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10060
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13054,
+                                "nombre": "Teoría de Sistemas",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10060,
+                                    13051
+                                ],
+                                "abre_a": [
+                                    13068
+                                ]
+                            },
+                            {
+                                "id": 13055,
+                                "nombre": "Algoritmos y Estructuras de Datos I",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    13053
+                                ],
+                                "abre_a": [
+                                    13059,
+                                    13061
+                                ]
+                            },
+                            {
+                                "id": 13056,
+                                "nombre": "Sistemas Digitales",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10052
+                                ],
+                                "abre_a": [
+                                    13057
+                                ]
+                            },
+                            {
+                                "id": 13057,
+                                "nombre": "Estructura de Computadores",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    13056
+                                ],
+                                "abre_a": [
+                                    13063,
+                                    13064,
+                                    13069
+                                ]
+                            },
+                            {
+                                "id": 13059,
+                                "nombre": "Bases de Datos",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    13055
+                                ],
+                                "abre_a": [
+                                    13062,
+                                    13065,
+                                    13069
+                                ]
+                            },
+                            {
+                                "id": 13060,
+                                "nombre": "Procesamiento de Lenguajes Formales",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    13053
+                                ],
+                                "abre_a": [
+                                    13069
+                                ]
+                            },
+                            {
+                                "id": 13061,
+                                "nombre": "Algoritmos y Estructuras de Datos II",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    13055
+                                ],
+                                "abre_a": [
+                                    13069
+                                ]
+                            },
+                            {
+                                "id": 13071,
+                                "nombre": "Contabilidad y Costos",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    10060
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 10067,
+                                "nombre": "Epistemología",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    10057,
+                                    10058,
+                                    10060,
+                                    13053
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13062,
+                                "nombre": "Ingeniería de Software",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13059
+                                ],
+                                "abre_a": [
+                                    13066,
+                                    13067
+                                ]
+                            },
+                            {
+                                "id": 13063,
+                                "nombre": "Sistemas Operativos",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13057
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13064,
+                                "nombre": "Redes Computacionales",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13057
+                                ],
+                                "abre_a": [
+                                    13066,
+                                    13068
+                                ]
+                            },
+                            {
+                                "id": 13065,
+                                "nombre": "Electivo Profesional I",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13059
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13066,
+                                "nombre": "Taller de Sistemas Distribuidos",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13062,
+                                    13064
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13067,
+                                "nombre": "Electivo Profesional II",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13062
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13068,
+                                "nombre": "Electivo Profesional III",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13054,
+                                    13064
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13069,
+                                "nombre": "Seminario de Proyecto de Título",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13057,
+                                    10058,
+                                    13059,
+                                    13060,
+                                    13061
+                                ],
+                                "abre_a": [
+                                    13070
+                                ]
+                            },
+                            {
+                                "id": 10064,
+                                "nombre": "Taller de Manejo de Desarrollo de RRHH",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    10061
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13070,
+                                "nombre": "Proyecto de Título",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    13069
+                                ],
+                                "abre_a": []
+                            }
+                        ]
                     }
                 ]
             },
@@ -1319,817 +1319,267 @@
                 "nombre": "Ingeniería Civil en Informática",
                 "versiones": [
                     {
-                        "plan": "2001.1",
+                        "plan": "2019 mod 2022",
                         "configuracion": {
-                            "total_semestres": 12
+                            "total_semestres": 11,
+                            "codigo_plan": 1463,
+                            "vigencia": 2023
                         },
                         "asignaturas": [
                             {
-                                "id": 10001,
-                                "nombre": "Cálculo",
-                                "semestre": 1,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    10007,
-                                    10008,
-                                    10010,
-                                    10009,
-                                    10013
-                                ]
-                            },
-                            {
-                                "id": 10002,
-                                "nombre": "Álgebra",
-                                "semestre": 1,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    10008
-                                ]
-                            },
-                            {
-                                "id": 10003,
-                                "nombre": "Física",
-                                "semestre": 1,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    10010
-                                ]
-                            },
-                            {
-                                "id": 10004,
-                                "nombre": "Introducción a la Química",
-                                "semestre": 1,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    13012
-                                ]
-                            },
-                            {
-                                "id": 13006,
-                                "nombre": "Fundamentos de Programación",
-                                "semestre": 2,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    13007,
-                                    13008
-                                ]
-                            },
-                            {
-                                "id": 10007,
-                                "nombre": "Cálculo Avanzado",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    10001
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 10008,
-                                "nombre": "Ecuaciones Diferenciales",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    10001,
-                                    10002
-                                ],
-                                "abre_a": [
-                                    13008,
-                                    13010
-                                ]
-                            },
-                            {
-                                "id": 10010,
-                                "nombre": "Electromagnetismo y Física Moderna",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    10001,
-                                    10003
-                                ],
-                                "abre_a": [
-                                    13012,
-                                    13014
-                                ]
-                            },
-                            {
-                                "id": 13007,
-                                "nombre": "Lenguajes y Paradigmas de Programación",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    13006
-                                ],
-                                "abre_a": [
-                                    13009,
-                                    13011
-                                ]
-                            },
-                            {
-                                "id": 10009,
-                                "nombre": "Probabilidad y Estadística",
-                                "semestre": 4,
-                                "prerrequisitos": [
-                                    10001
-                                ],
-                                "abre_a": [
-                                    13017
-                                ]
-                            },
-                            {
-                                "id": 10013,
-                                "nombre": "Microeconomía",
-                                "semestre": 4,
-                                "prerrequisitos": [
-                                    10001
-                                ],
-                                "abre_a": [
-                                    10014
-                                ]
-                            },
-                            {
-                                "id": 13008,
-                                "nombre": "Tópicos de Matemáticas I - Informática",
-                                "semestre": 4,
-                                "prerrequisitos": [
-                                    10008,
-                                    13006
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13009,
-                                "nombre": "Estructura de Datos y Algoritmos",
-                                "semestre": 4,
-                                "prerrequisitos": [
-                                    13007
-                                ],
-                                "abre_a": [
-                                    13013
-                                ]
-                            },
-                            {
-                                "id": 13010,
-                                "nombre": "Estructuras Discretas",
-                                "semestre": 4,
-                                "prerrequisitos": [
-                                    10008
-                                ],
-                                "abre_a": [
-                                    13014
-                                ]
-                            },
-                            {
-                                "id": 10014,
-                                "nombre": "Macroeconomía",
-                                "semestre": 5,
-                                "prerrequisitos": [
-                                    10013
-                                ],
-                                "abre_a": [
-                                    10012,
-                                    13021
-                                ]
-                            },
-                            {
-                                "id": 13011,
-                                "nombre": "Autómatas y Lenguajes Formales",
-                                "semestre": 5,
-                                "prerrequisitos": [
-                                    13007
-                                ],
-                                "abre_a": [
-                                    13015,
-                                    13016
-                                ]
-                            },
-                            {
-                                "id": 13012,
-                                "nombre": "Fundamentos de Procesos Productivos",
-                                "semestre": 5,
-                                "prerrequisitos": [
-                                    10004,
-                                    10010
-                                ],
-                                "abre_a": [
-                                    13021
-                                ]
-                            },
-                            {
-                                "id": 13013,
-                                "nombre": "Algoritmos Avanzados",
-                                "semestre": 5,
-                                "prerrequisitos": [
-                                    13009
-                                ],
-                                "abre_a": [
-                                    13018,
-                                    13019,
-                                    13020
-                                ]
-                            },
-                            {
-                                "id": 13014,
-                                "nombre": "Organización de Computadores",
-                                "semestre": 5,
-                                "prerrequisitos": [
-                                    10010,
-                                    13010
-                                ],
-                                "abre_a": [
-                                    13017,
-                                    13018,
-                                    13020
-                                ]
-                            },
-                            {
-                                "id": 10012,
-                                "nombre": "Finanzas",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    10014
-                                ],
-                                "abre_a": [
-                                    10017,
-                                    10018
-                                ]
-                            },
-                            {
-                                "id": 13015,
-                                "nombre": "Lógica y Teoría de Computación",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    13011
-                                ],
-                                "abre_a": [
-                                    13023,
-                                    10015
-                                ]
-                            },
-                            {
-                                "id": 13016,
-                                "nombre": "Compiladores",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    13011
-                                ],
-                                "abre_a": [
-                                    10015
-                                ]
-                            },
-                            {
-                                "id": 13017,
-                                "nombre": "Comunicación de Datos",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    10009,
-                                    13014
-                                ],
-                                "abre_a": [
-                                    13022,
-                                    10015
-                                ]
-                            },
-                            {
-                                "id": 13018,
-                                "nombre": "Sistemas Operativos",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    13013,
-                                    13014
-                                ],
-                                "abre_a": [
-                                    13026,
-                                    10015
-                                ]
-                            },
-                            {
-                                "id": 13019,
-                                "nombre": "Métodos de Optimización",
-                                "semestre": 7,
-                                "prerrequisitos": [
-                                    13013
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13020,
-                                "nombre": "Computación Paralela",
-                                "semestre": 7,
-                                "prerrequisitos": [
-                                    13013,
-                                    13014
-                                ],
-                                "abre_a": [
-                                    13037,
-                                    13038
-                                ]
-                            },
-                            {
-                                "id": 13021,
-                                "nombre": "Ingeniería de Sistemas",
-                                "semestre": 7,
-                                "prerrequisitos": [
-                                    10014,
-                                    13012
-                                ],
-                                "abre_a": [
-                                    13024,
-                                    13025
-                                ]
-                            },
-                            {
-                                "id": 13022,
-                                "nombre": "Redes de Comunicación",
-                                "semestre": 7,
-                                "prerrequisitos": [
-                                    13017
-                                ],
-                                "abre_a": [
-                                    13026
-                                ]
-                            },
-                            {
-                                "id": 13023,
-                                "nombre": "Fundamentos de Base de Datos",
-                                "semestre": 7,
-                                "prerrequisitos": [
-                                    13015
-                                ],
-                                "abre_a": [
-                                    13024,
-                                    13027
-                                ]
-                            },
-                            {
-                                "id": 10015,
-                                "nombre": "Antropología e Ingeniería",
-                                "semestre": 8,
-                                "prerrequisitos": [
-                                    13015,
-                                    13016,
-                                    13017,
-                                    13018
-                                ],
-                                "abre_a": [
-                                    13029,
-                                    13030
-                                ]
-                            },
-                            {
-                                "id": 13024,
-                                "nombre": "Fundamentos de Ingeniería de Software",
-                                "semestre": 8,
-                                "prerrequisitos": [
-                                    13021,
-                                    13023
-                                ],
-                                "abre_a": [
-                                    13028,
-                                    13030,
-                                    13031
-                                ]
-                            },
-                            {
-                                "id": 13025,
-                                "nombre": "Control y Simulación",
-                                "semestre": 8,
-                                "prerrequisitos": [
-                                    13021
-                                ],
-                                "abre_a": [
-                                    13031
-                                ]
-                            },
-                            {
-                                "id": 13026,
-                                "nombre": "Sistemas Distribuidos",
-                                "semestre": 8,
-                                "prerrequisitos": [
-                                    13018,
-                                    13022
-                                ],
-                                "abre_a": [
-                                    13031,
-                                    13037,
-                                    13038
-                                ]
-                            },
-                            {
-                                "id": 13027,
-                                "nombre": "Proyectos de Base de Datos",
-                                "semestre": 8,
-                                "prerrequisitos": [
-                                    13023
-                                ],
-                                "abre_a": [
-                                    13028,
-                                    13031
-                                ]
-                            },
-                            {
-                                "id": 10017,
-                                "nombre": "Evaluación de Proyectos",
-                                "semestre": 9,
-                                "prerrequisitos": [
-                                    10012
-                                ],
-                                "abre_a": [
-                                    13032
-                                ]
-                            },
-                            {
-                                "id": 13028,
-                                "nombre": "Proyectos de Ingeniería de Software",
-                                "semestre": 9,
-                                "prerrequisitos": [
-                                    13024,
-                                    13027
-                                ],
-                                "abre_a": [
-                                    13032
-                                ]
-                            },
-                            {
-                                "id": 13029,
-                                "nombre": "Comportamiento Humano en el Trabajo",
-                                "semestre": 9,
-                                "prerrequisitos": [
-                                    10015
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13030,
-                                "nombre": "Interfaz Humano Computador",
-                                "semestre": 9,
-                                "prerrequisitos": [
-                                    10015,
-                                    13024
-                                ],
-                                "abre_a": [
-                                    13032
-                                ]
-                            },
-                            {
-                                "id": 13031,
-                                "nombre": "Electivo Profesional I",
-                                "semestre": 9,
-                                "prerrequisitos": [
-                                    13024,
-                                    13025,
-                                    13026,
-                                    13027
-                                ],
-                                "abre_a": [
-                                    13033,
-                                    13034,
-                                    13035,
-                                    13039
-                                ]
-                            },
-                            {
-                                "id": 10018,
-                                "nombre": "Administración de Empresas",
-                                "semestre": 10,
-                                "prerrequisitos": [
-                                    10012
-                                ],
-                                "abre_a": [
-                                    13036
-                                ]
-                            },
-                            {
-                                "id": 13032,
-                                "nombre": "Proyecto de Ingeniería Informática",
-                                "semestre": 10,
-                                "prerrequisitos": [
-                                    10017,
-                                    13028,
-                                    13030
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13033,
-                                "nombre": "Electivo Profesional II",
-                                "semestre": 10,
-                                "prerrequisitos": [
-                                    13031
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13034,
-                                "nombre": "Electivo Profesional III",
-                                "semestre": 10,
-                                "prerrequisitos": [
-                                    13031
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13035,
-                                "nombre": "Electivo Profesional IV",
-                                "semestre": 10,
-                                "prerrequisitos": [
-                                    13031
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13036,
-                                "nombre": "Dirección y Gestión de Empresas",
-                                "semestre": 11,
-                                "prerrequisitos": [
-                                    10018
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13037,
-                                "nombre": "Electivo Profesional V",
-                                "semestre": 11,
-                                "prerrequisitos": [
-                                    13020,
-                                    13026
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13038,
-                                "nombre": "Electivo Profesional VI",
-                                "semestre": 11,
-                                "prerrequisitos": [
-                                    13020,
-                                    13026
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13039,
-                                "nombre": "Seminario de Titulación",
-                                "semestre": 11,
-                                "prerrequisitos": [
-                                    13031
-                                ],
-                                "abre_a": [
-                                    13040
-                                ]
-                            },
-                            {
-                                "id": 13040,
-                                "nombre": "Trabajo de Titulación",
-                                "semestre": 12,
-                                "prerrequisitos": [
-                                    13039
-                                ],
-                                "abre_a": []
-                            }
-                        ]
-                    },
-                    {
-                        "plan": "2011 mod 2014",
-                        "configuracion": {
-                            "total_semestres": 12
-                        },
-                        "asignaturas": [
-                            {
-                                "id": 10101,
+                                "id": 10138,
                                 "nombre": "Cálculo I para Ingeniería",
                                 "semestre": 1,
                                 "prerrequisitos": [],
                                 "abre_a": [
-                                    10107,
-                                    10116
+                                    10142,
+                                    10157
                                 ]
                             },
                             {
-                                "id": 10102,
-                                "nombre": "Algebra I para Ingeniería",
+                                "id": 10139,
+                                "nombre": "Álgebra I para Ingeniería",
                                 "semestre": 1,
                                 "prerrequisitos": [],
                                 "abre_a": [
-                                    10108,
-                                    10110
+                                    10143
                                 ]
                             },
                             {
-                                "id": 10103,
-                                "nombre": "Fisica I para Ingeniería",
+                                "id": 10140,
+                                "nombre": "Física I para Ingeniería",
                                 "semestre": 1,
                                 "prerrequisitos": [],
                                 "abre_a": [
-                                    10109
+                                    10144
                                 ]
                             },
                             {
-                                "id": 10104,
-                                "nombre": "Taller de desarrollo personal e integral",
+                                "id": 13344,
+                                "nombre": "Ingeniería y Sostenibilidad",
                                 "semestre": 1,
                                 "prerrequisitos": [],
                                 "abre_a": [
-                                    10128
+                                    13313
                                 ]
                             },
                             {
-                                "id": 10125,
-                                "nombre": "Introducción a la Ingeniería",
+                                "id": 10141,
+                                "nombre": "Introducción al Diseño en Ingeniería",
                                 "semestre": 1,
                                 "prerrequisitos": [],
                                 "abre_a": [
-                                    13203
+                                    13301,
+                                    10145,
+                                    13302
                                 ]
                             },
                             {
-                                "id": 10126,
-                                "nombre": "Métodos de Estudio",
-                                "semestre": 1,
-                                "prerrequisitos": [],
-                                "abre_a": [
-                                    10130
-                                ]
-                            },
-                            {
-                                "id": 10107,
-                                "nombre": "Cálculo II para Ingenieria",
+                                "id": 10142,
+                                "nombre": "Cálculo II para Ingeniería",
                                 "semestre": 2,
                                 "prerrequisitos": [
-                                    10101
+                                    10138
                                 ],
                                 "abre_a": [
-                                    10127,
-                                    10122,
-                                    10115,
-                                    10129
+                                    10146,
+                                    13305
                                 ]
                             },
                             {
-                                "id": 10108,
+                                "id": 10143,
                                 "nombre": "Álgebra II para Ingeniería",
                                 "semestre": 2,
                                 "prerrequisitos": [
-                                    10102
+                                    10139
                                 ],
                                 "abre_a": [
-                                    10122,
-                                    13202
+                                    13308
                                 ]
                             },
                             {
-                                "id": 10109,
-                                "nombre": "Física II para Ingeniería",
+                                "id": 10144,
+                                "nombre": "Fisica II para Ingeniería",
                                 "semestre": 2,
                                 "prerrequisitos": [
-                                    10103
+                                    10140
                                 ],
                                 "abre_a": [
-                                    10127
+                                    13305
                                 ]
                             },
                             {
-                                "id": 10110,
-                                "nombre": "Fundamentos de Computación y Programación",
+                                "id": 13301,
+                                "nombre": "Introducción a la Ingeniería Informática",
                                 "semestre": 2,
                                 "prerrequisitos": [
-                                    10102
+                                    10141
                                 ],
                                 "abre_a": [
-                                    13201
+                                    13346
                                 ]
                             },
                             {
-                                "id": 10111,
-                                "nombre": "Química General",
+                                "id": 10145,
+                                "nombre": "Fundamentos de Programación para Ingeniería",
                                 "semestre": 2,
-                                "prerrequisitos": [],
-                                "abre_a": []
+                                "prerrequisitos": [
+                                    10141
+                                ],
+                                "abre_a": [
+                                    13345,
+                                    13307,
+                                    13311,
+                                    13346
+                                ]
                             },
                             {
-                                "id": 10127,
-                                "nombre": "Electricidad y magnetismo para Ingenieria",
+                                "id": 13302,
+                                "nombre": "Fundamentos de Computación",
+                                "semestre": 2,
+                                "prerrequisitos": [
+                                    10141
+                                ],
+                                "abre_a": [
+                                    13345,
+                                    13346,
+                                    13308,
+                                    13309
+                                ]
+                            },
+                            {
+                                "id": 10146,
+                                "nombre": "Cálculo III para Ingeniería",
                                 "semestre": 3,
                                 "prerrequisitos": [
-                                    10109,
-                                    10107
+                                    10142
                                 ],
                                 "abre_a": [
-                                    13202
+                                    13307,
+                                    13311,
+                                    13322
                                 ]
                             },
                             {
-                                "id": 10128,
-                                "nombre": "Comunicación efectiva",
+                                "id": 13345,
+                                "nombre": "Estructura de Datos",
                                 "semestre": 3,
                                 "prerrequisitos": [
-                                    10104
+                                    10145,
+                                    13302
                                 ],
                                 "abre_a": [
-                                    13214
+                                    13310,
+                                    13312
+                                ]
+                            },
+                            {
+                                "id": 13305,
+                                "nombre": "Electricidad, Magnetismo y Ondas",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10142,
+                                    10144
+                                ],
+                                "abre_a": [
+                                    13309
+                                ]
+                            },
+                            {
+                                "id": 13346,
+                                "nombre": "Diseño de Algoritmos",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    13301,
+                                    13302,
+                                    10145
+                                ],
+                                "abre_a": [
+                                    13310,
+                                    13312
+                                ]
+                            },
+                            {
+                                "id": 10157,
+                                "nombre": "Fundamentos de Economía para Ingeniería",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10138
+                                ],
+                                "abre_a": [
+                                    13320,
+                                    10148
                                 ]
                             },
                             {
                                 "id": 10130,
                                 "nombre": "Inglés I",
                                 "semestre": 3,
-                                "prerrequisitos": [
-                                    10126
-                                ],
+                                "prerrequisitos": [],
                                 "abre_a": [
                                     10131
                                 ]
                             },
                             {
-                                "id": 10122,
-                                "nombre": "Ecuaciones diferenciales para Ingenieria",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    10107,
-                                    10108
-                                ],
-                                "abre_a": [
-                                    13211
-                                ]
-                            },
-                            {
-                                "id": 13201,
-                                "nombre": "Métodos de programación",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    10110
-                                ],
-                                "abre_a": [
-                                    13204,
-                                    13205
-                                ]
-                            },
-                            {
-                                "id": 10116,
-                                "nombre": "Fundamentos de economía",
-                                "semestre": 3,
-                                "prerrequisitos": [
-                                    10101
-                                ],
-                                "abre_a": [
-                                    13219,
-                                    13224
-                                ]
-                            },
-                            {
-                                "id": 10129,
-                                "nombre": "Cálculo III para Ingeniería",
+                                "id": 13307,
+                                "nombre": "Ecuaciones Diferenciales y Métodos Numéricos",
                                 "semestre": 4,
                                 "prerrequisitos": [
-                                    10107
+                                    10145,
+                                    10146
                                 ],
                                 "abre_a": [
-                                    13211,
-                                    13221
+                                    13321
                                 ]
                             },
                             {
-                                "id": 10115,
-                                "nombre": "Análisis Estadístico para Ingeniería",
+                                "id": 13308,
+                                "nombre": "Diseño de Bases de Datos",
                                 "semestre": 4,
                                 "prerrequisitos": [
-                                    10107
+                                    10143,
+                                    13302
                                 ],
                                 "abre_a": [
-                                    13203,
-                                    13216
+                                    13317,
+                                    13319
                                 ]
                             },
                             {
-                                "id": 13202,
-                                "nombre": "Estructura de computadores",
+                                "id": 13309,
+                                "nombre": "Arquitectura de Computadores",
                                 "semestre": 4,
                                 "prerrequisitos": [
-                                    10108,
-                                    10127
+                                    13302,
+                                    13305
                                 ],
                                 "abre_a": [
-                                    13208
+                                    13313
                                 ]
                             },
                             {
-                                "id": 13204,
-                                "nombre": "Paradigmas de programación",
+                                "id": 13310,
+                                "nombre": "Paradigmas de Programación",
                                 "semestre": 4,
                                 "prerrequisitos": [
-                                    13201
+                                    13345,
+                                    13346
                                 ],
                                 "abre_a": [
-                                    13207,
-                                    13209,
-                                    13210
+                                    13314,
+                                    13315,
+                                    13318
                                 ]
                             },
                             {
-                                "id": 13205,
-                                "nombre": "Análisis de algoritmos y estructura de datos",
+                                "id": 10148,
+                                "nombre": "Taller de Diseño en Ingeniería",
                                 "semestre": 4,
                                 "prerrequisitos": [
-                                    13201
+                                    10157
                                 ],
                                 "abre_a": [
-                                    13210,
-                                    13213
+                                    13320
                                 ]
                             },
                             {
@@ -2140,394 +1590,419 @@
                                     10130
                                 ],
                                 "abre_a": [
-                                    13206
+                                    10132,
+                                    13316
                                 ]
                             },
                             {
-                                "id": 13203,
-                                "nombre": "Ingeniería de Sistemas",
+                                "id": 13311,
+                                "nombre": "Estadística Computacional",
                                 "semestre": 5,
                                 "prerrequisitos": [
-                                    10125,
-                                    10115
+                                    10145,
+                                    10146
                                 ],
                                 "abre_a": [
-                                    13214
+                                    13316
                                 ]
                             },
                             {
-                                "id": 13207,
-                                "nombre": "Diseño de bases de datos",
+                                "id": 13312,
+                                "nombre": "Teoría de la Computación",
                                 "semestre": 5,
                                 "prerrequisitos": [
-                                    13204
+                                    13345,
+                                    13346
                                 ],
                                 "abre_a": [
-                                    13215
+                                    13322
                                 ]
                             },
                             {
-                                "id": 13208,
-                                "nombre": "Organización de computadores",
+                                "id": 13313,
+                                "nombre": "Sistemas Operativos",
                                 "semestre": 5,
                                 "prerrequisitos": [
-                                    13202
+                                    13344,
+                                    13309
                                 ],
                                 "abre_a": [
-                                    13212,
-                                    13217
+                                    13317,
+                                    13323
                                 ]
                             },
                             {
-                                "id": 13209,
-                                "nombre": "Fundamentos de ingeniería de software",
+                                "id": 13314,
+                                "nombre": "Fundamentos de Ingeniería de Software",
                                 "semestre": 5,
                                 "prerrequisitos": [
-                                    13204
+                                    13310
                                 ],
                                 "abre_a": [
-                                    13215,
-                                    13220
+                                    13319,
+                                    13324
                                 ]
                             },
                             {
-                                "id": 13210,
-                                "nombre": "Algoritmos avanzados",
+                                "id": 13315,
+                                "nombre": "Taller de Programación",
                                 "semestre": 5,
                                 "prerrequisitos": [
-                                    13204,
-                                    13205
+                                    13310
                                 ],
                                 "abre_a": [
-                                    13221
+                                    13325
                                 ]
                             },
                             {
-                                "id": 13206,
+                                "id": 10132,
                                 "nombre": "Inglés III",
                                 "semestre": 5,
                                 "prerrequisitos": [
                                     10131
                                 ],
                                 "abre_a": [
-                                    13216
+                                    10133,
+                                    13326
                                 ]
                             },
                             {
-                                "id": 13211,
-                                "nombre": "Algoritmos Numéricos",
+                                "id": 13316,
+                                "nombre": "Estadística Inferencial",
                                 "semestre": 6,
                                 "prerrequisitos": [
-                                    10122,
-                                    10129
+                                    10131,
+                                    13311
                                 ],
                                 "abre_a": [
-                                    13227
+                                    13321
                                 ]
                             },
                             {
-                                "id": 13212,
-                                "nombre": "Sistemas operativos",
+                                "id": 13317,
+                                "nombre": "Bases de Datos Avanzadas",
                                 "semestre": 6,
                                 "prerrequisitos": [
-                                    13208
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13213,
-                                "nombre": "Procesamiento de lenguajes formales",
-                                "semestre": 6,
-                                "prerrequisitos": [
-                                    13205
+                                    13308,
+                                    13313
                                 ],
                                 "abre_a": [
-                                    13218
+                                    13329,
+                                    13331
                                 ]
                             },
                             {
-                                "id": 13214,
-                                "nombre": "Antropologia e ingeniería",
+                                "id": 13318,
+                                "nombre": "Procesamiento de Señales e Imágenes",
                                 "semestre": 6,
                                 "prerrequisitos": [
-                                    13203,
-                                    10128
+                                    13310
                                 ],
                                 "abre_a": [
-                                    13219
+                                    13323
                                 ]
                             },
                             {
-                                "id": 13215,
-                                "nombre": "Taller de bases de datos",
+                                "id": 13319,
+                                "nombre": "Técnicas de Ingeniería de Software",
                                 "semestre": 6,
                                 "prerrequisitos": [
-                                    13207,
-                                    13209
+                                    13308,
+                                    13314
                                 ],
                                 "abre_a": [
-                                    13030
+                                    13331
                                 ]
                             },
                             {
-                                "id": 13216,
-                                "nombre": "Ingles IV",
+                                "id": 13320,
+                                "nombre": "Evaluación de Proyectos",
                                 "semestre": 6,
                                 "prerrequisitos": [
-                                    13206
+                                    10157,
+                                    10148
                                 ],
-                                "abre_a": []
+                                "abre_a": [
+                                    13324,
+                                    13325
+                                ]
                             },
                             {
-                                "id": 13216,
-                                "nombre": "Inferencia y modelos estadísticos",
+                                "id": 10133,
+                                "nombre": "Inglés IV",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    10132
+                                ],
+                                "abre_a": [
+                                    13328,
+                                    13332
+                                ]
+                            },
+                            {
+                                "id": 13321,
+                                "nombre": "Modelos y Simulación",
                                 "semestre": 7,
                                 "prerrequisitos": [
-                                    10115
+                                    13307,
+                                    13316
                                 ],
                                 "abre_a": [
-                                    13222
+                                    13327
                                 ]
                             },
                             {
-                                "id": 13217,
-                                "nombre": "Redes de computadores",
+                                "id": 13322,
+                                "nombre": "Métodos de Optimización",
                                 "semestre": 7,
                                 "prerrequisitos": [
-                                    13208
+                                    10146,
+                                    13312
                                 ],
                                 "abre_a": [
-                                    13223
+                                    13327
                                 ]
                             },
                             {
-                                "id": 13218,
-                                "nombre": "Lógica y teoría de la computación",
+                                "id": 13323,
+                                "nombre": "Redes de Comunicación",
                                 "semestre": 7,
                                 "prerrequisitos": [
-                                    13213
+                                    13313,
+                                    13318
                                 ],
-                                "abre_a": []
+                                "abre_a": [
+                                    13328,
+                                    13329,
+                                    13335
+                                ]
                             },
                             {
-                                "id": 13219,
-                                "nombre": "Macroeconomía y globalización",
+                                "id": 13324,
+                                "nombre": "Gestión de Proyectos TI",
                                 "semestre": 7,
                                 "prerrequisitos": [
-                                    10116,
-                                    13214
+                                    13314,
+                                    13320
                                 ],
                                 "abre_a": [
-                                    13226
+                                    13347,
+                                    13335
                                 ]
                             },
                             {
-                                "id": 13220,
-                                "nombre": "Métodos de ingeniería de software",
+                                "id": 13325,
+                                "nombre": "Innovación y Emprendimiento",
                                 "semestre": 7,
                                 "prerrequisitos": [
-                                    13209
+                                    13315,
+                                    13320
                                 ],
                                 "abre_a": [
-                                    13225
+                                    13335
                                 ]
                             },
                             {
-                                "id": 13221,
-                                "nombre": "Métodos de optimización",
+                                "id": 13326,
+                                "nombre": "Formación Integral I",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    10132
+                                ],
+                                "abre_a": [
+                                    13338
+                                ]
+                            },
+                            {
+                                "id": 13327,
+                                "nombre": "Análisis de Datos",
                                 "semestre": 8,
                                 "prerrequisitos": [
-                                    10129,
-                                    13210
+                                    13321,
+                                    13322
                                 ],
-                                "abre_a": []
+                                "abre_a": [
+                                    13333
+                                ]
                             },
                             {
-                                "id": 13222,
-                                "nombre": "Análisis de datos",
+                                "id": 13328,
+                                "nombre": "Ciberseguridad",
                                 "semestre": 8,
                                 "prerrequisitos": [
-                                    13216
+                                    10133,
+                                    13323
                                 ],
-                                "abre_a": []
+                                "abre_a": [
+                                    13336
+                                ]
                             },
                             {
-                                "id": 13223,
-                                "nombre": "Sistemas de comunicación",
+                                "id": 13329,
+                                "nombre": "Sistemas Distribuidos y Paralelos",
                                 "semestre": 8,
                                 "prerrequisitos": [
-                                    13217
+                                    13317,
+                                    13323
                                 ],
-                                "abre_a": [
-                                    13228,
-                                    13234
-                                ]
+                                "abre_a": []
                             },
                             {
-                                "id": 13224,
-                                "nombre": "Finanzas y contabilidad",
+                                "id": 13347,
+                                "nombre": "Gestión de Servicios TI",
                                 "semestre": 8,
                                 "prerrequisitos": [
-                                    10116
+                                    13324
                                 ],
                                 "abre_a": [
-                                    13229,
-                                    13239
+                                    13336
                                 ]
                             },
                             {
-                                "id": 13225,
-                                "nombre": "Administración de proyectos de software",
+                                "id": 13331,
+                                "nombre": "Proyecto de Ingeniería de Software",
                                 "semestre": 8,
                                 "prerrequisitos": [
-                                    13220
+                                    13317,
+                                    13319
                                 ],
                                 "abre_a": [
-                                    13030
+                                    13337,
+                                    13341
                                 ]
                             },
                             {
-                                "id": 13226,
-                                "nombre": "Ingeniería y sociedad",
+                                "id": 13332,
+                                "nombre": "Formación Integral II",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    10133
+                                ],
+                                "abre_a": [
+                                    13338,
+                                    13341
+                                ]
+                            },
+                            {
+                                "id": 13333,
+                                "nombre": "Aprendizaje Automático",
                                 "semestre": 9,
                                 "prerrequisitos": [
-                                    13219
+                                    13327
                                 ],
                                 "abre_a": [
-                                    13239
+                                    13343
                                 ]
                             },
                             {
-                                "id": 13227,
-                                "nombre": "Modelación y simulación",
+                                "id": 13334,
+                                "nombre": "Tópico de Especialidad I",
                                 "semestre": 9,
                                 "prerrequisitos": [
-                                    13211
+                                    13321,
+                                    13322
                                 ],
-                                "abre_a": []
+                                "abre_a": [
+                                    13339
+                                ]
                             },
                             {
-                                "id": 13228,
-                                "nombre": "Sistemas distribuidos",
+                                "id": 13335,
+                                "nombre": "Tópico de Especialidad II",
                                 "semestre": 9,
                                 "prerrequisitos": [
-                                    13223
+                                    13323,
+                                    13324,
+                                    13325
                                 ],
-                                "abre_a": []
+                                "abre_a": [
+                                    13340
+                                ]
                             },
                             {
-                                "id": 13229,
-                                "nombre": "Evaluación de proyectos",
+                                "id": 13336,
+                                "nombre": "Gobernanza y Gestión TI",
                                 "semestre": 9,
                                 "prerrequisitos": [
-                                    13224
+                                    13328,
+                                    13347
                                 ],
                                 "abre_a": [
-                                    13235
+                                    13343
                                 ]
                             },
                             {
-                                "id": 13030,
-                                "nombre": "Taller de ingeniería de software",
+                                "id": 13337,
+                                "nombre": "Electivo I",
                                 "semestre": 9,
                                 "prerrequisitos": [
-                                    13215,
-                                    13225
+                                    13331
                                 ],
                                 "abre_a": [
-                                    13235
+                                    13342
                                 ]
                             },
                             {
-                                "id": 13231,
-                                "nombre": "Tópicos de especialidad I",
-                                "semestre": 10,
-                                "prerrequisitos": [],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13232,
-                                "nombre": "Tópicos de especialidad II",
-                                "semestre": 10,
-                                "prerrequisitos": [],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13233,
-                                "nombre": "Tópicos de especialidad III",
-                                "semestre": 10,
-                                "prerrequisitos": [],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13234,
-                                "nombre": "Seguridad y auditoría informática",
+                                "id": 13338,
+                                "nombre": "Seminario de Informática",
                                 "semestre": 10,
                                 "prerrequisitos": [
-                                    13223
-                                ],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13235,
-                                "nombre": "Proyecto de ingeniería informática",
-                                "semestre": 10,
-                                "prerrequisitos": [
-                                    13229,
-                                    13030
+                                    13326,
+                                    13332,
+                                    13337
                                 ],
                                 "abre_a": [
-                                    13240
+                                    13343
                                 ]
                             },
                             {
-                                "id": 13236,
-                                "nombre": "Tópicos de especialidad IV",
-                                "semestre": 11,
-                                "prerrequisitos": [],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13237,
-                                "nombre": "Tópicos de especialidad V",
-                                "semestre": 11,
-                                "prerrequisitos": [],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13238,
-                                "nombre": "Tópicos de especialidad VI",
-                                "semestre": 11,
-                                "prerrequisitos": [],
-                                "abre_a": []
-                            },
-                            {
-                                "id": 13239,
-                                "nombre": "Dirección y gestión de empresas",
-                                "semestre": 11,
+                                "id": 13339,
+                                "nombre": "Tópico de Especialidad III",
+                                "semestre": 10,
                                 "prerrequisitos": [
-                                    13224,
-                                    13226
+                                    13334
                                 ],
                                 "abre_a": []
                             },
                             {
-                                "id": 13240,
-                                "nombre": "Seminario de informática",
-                                "semestre": 11,
+                                "id": 13340,
+                                "nombre": "Tópico de Especialidad IV",
+                                "semestre": 10,
                                 "prerrequisitos": [
-                                    13235
+                                    13335
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13341,
+                                "nombre": "Electivo Interdisciplinario",
+                                "semestre": 10,
+                                "prerrequisitos": [
+                                    13331,
+                                    13332
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13342,
+                                "nombre": "Electivo II",
+                                "semestre": 10,
+                                "prerrequisitos": [
+                                    13337
                                 ],
                                 "abre_a": [
-                                    13241
+                                    13343
                                 ]
                             },
                             {
-                                "id": 13241,
-                                "nombre": "Trabajo de titulación",
-                                "semestre": 12,
+                                "id": 13343,
+                                "nombre": "Trabajo de Titulación",
+                                "semestre": 11,
                                 "prerrequisitos": [
-                                    13240
+                                    13333,
+                                    13336,
+                                    13338,
+                                    13342
                                 ],
                                 "abre_a": []
                             }
@@ -3219,6 +2694,1221 @@
                                     13336,
                                     13338,
                                     13342
+                                ],
+                                "abre_a": []
+                            }
+                        ]
+                    },
+                    {
+                        "plan": "2011 mod 2014",
+                        "configuracion": {
+                            "total_semestres": 12
+                        },
+                        "asignaturas": [
+                            {
+                                "id": 10101,
+                                "nombre": "Cálculo I para Ingeniería",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10107,
+                                    10116
+                                ]
+                            },
+                            {
+                                "id": 10102,
+                                "nombre": "Algebra I para Ingeniería",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10108,
+                                    10110
+                                ]
+                            },
+                            {
+                                "id": 10103,
+                                "nombre": "Fisica I para Ingeniería",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10109
+                                ]
+                            },
+                            {
+                                "id": 10104,
+                                "nombre": "Taller de desarrollo personal e integral",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10128
+                                ]
+                            },
+                            {
+                                "id": 10125,
+                                "nombre": "Introducción a la Ingeniería",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    13203
+                                ]
+                            },
+                            {
+                                "id": 10126,
+                                "nombre": "Métodos de Estudio",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10130
+                                ]
+                            },
+                            {
+                                "id": 10107,
+                                "nombre": "Cálculo II para Ingenieria",
+                                "semestre": 2,
+                                "prerrequisitos": [
+                                    10101
+                                ],
+                                "abre_a": [
+                                    10127,
+                                    10122,
+                                    10115,
+                                    10129
+                                ]
+                            },
+                            {
+                                "id": 10108,
+                                "nombre": "Álgebra II para Ingeniería",
+                                "semestre": 2,
+                                "prerrequisitos": [
+                                    10102
+                                ],
+                                "abre_a": [
+                                    10122,
+                                    13202
+                                ]
+                            },
+                            {
+                                "id": 10109,
+                                "nombre": "Física II para Ingeniería",
+                                "semestre": 2,
+                                "prerrequisitos": [
+                                    10103
+                                ],
+                                "abre_a": [
+                                    10127
+                                ]
+                            },
+                            {
+                                "id": 10110,
+                                "nombre": "Fundamentos de Computación y Programación",
+                                "semestre": 2,
+                                "prerrequisitos": [
+                                    10102
+                                ],
+                                "abre_a": [
+                                    13201
+                                ]
+                            },
+                            {
+                                "id": 10111,
+                                "nombre": "Química General",
+                                "semestre": 2,
+                                "prerrequisitos": [],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 10127,
+                                "nombre": "Electricidad y magnetismo para Ingenieria",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10109,
+                                    10107
+                                ],
+                                "abre_a": [
+                                    13202
+                                ]
+                            },
+                            {
+                                "id": 10128,
+                                "nombre": "Comunicación efectiva",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10104
+                                ],
+                                "abre_a": [
+                                    13214
+                                ]
+                            },
+                            {
+                                "id": 10130,
+                                "nombre": "Inglés I",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10126
+                                ],
+                                "abre_a": [
+                                    10131
+                                ]
+                            },
+                            {
+                                "id": 10122,
+                                "nombre": "Ecuaciones diferenciales para Ingenieria",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10107,
+                                    10108
+                                ],
+                                "abre_a": [
+                                    13211
+                                ]
+                            },
+                            {
+                                "id": 13201,
+                                "nombre": "Métodos de programación",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10110
+                                ],
+                                "abre_a": [
+                                    13204,
+                                    13205
+                                ]
+                            },
+                            {
+                                "id": 10116,
+                                "nombre": "Fundamentos de economía",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10101
+                                ],
+                                "abre_a": [
+                                    13219,
+                                    13224
+                                ]
+                            },
+                            {
+                                "id": 10129,
+                                "nombre": "Cálculo III para Ingeniería",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10107
+                                ],
+                                "abre_a": [
+                                    13211,
+                                    13221
+                                ]
+                            },
+                            {
+                                "id": 10115,
+                                "nombre": "Análisis Estadístico para Ingeniería",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10107
+                                ],
+                                "abre_a": [
+                                    13203,
+                                    13216
+                                ]
+                            },
+                            {
+                                "id": 13202,
+                                "nombre": "Estructura de computadores",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10108,
+                                    10127
+                                ],
+                                "abre_a": [
+                                    13208
+                                ]
+                            },
+                            {
+                                "id": 13204,
+                                "nombre": "Paradigmas de programación",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    13201
+                                ],
+                                "abre_a": [
+                                    13207,
+                                    13209,
+                                    13210
+                                ]
+                            },
+                            {
+                                "id": 13205,
+                                "nombre": "Análisis de algoritmos y estructura de datos",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    13201
+                                ],
+                                "abre_a": [
+                                    13210,
+                                    13213
+                                ]
+                            },
+                            {
+                                "id": 10131,
+                                "nombre": "Inglés II",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10130
+                                ],
+                                "abre_a": [
+                                    13206
+                                ]
+                            },
+                            {
+                                "id": 13203,
+                                "nombre": "Ingeniería de Sistemas",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    10125,
+                                    10115
+                                ],
+                                "abre_a": [
+                                    13214
+                                ]
+                            },
+                            {
+                                "id": 13207,
+                                "nombre": "Diseño de bases de datos",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    13204
+                                ],
+                                "abre_a": [
+                                    13215
+                                ]
+                            },
+                            {
+                                "id": 13208,
+                                "nombre": "Organización de computadores",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    13202
+                                ],
+                                "abre_a": [
+                                    13212,
+                                    13217
+                                ]
+                            },
+                            {
+                                "id": 13209,
+                                "nombre": "Fundamentos de ingeniería de software",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    13204
+                                ],
+                                "abre_a": [
+                                    13215,
+                                    13220
+                                ]
+                            },
+                            {
+                                "id": 13210,
+                                "nombre": "Algoritmos avanzados",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    13204,
+                                    13205
+                                ],
+                                "abre_a": [
+                                    13221
+                                ]
+                            },
+                            {
+                                "id": 13206,
+                                "nombre": "Inglés III",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    10131
+                                ],
+                                "abre_a": [
+                                    13216
+                                ]
+                            },
+                            {
+                                "id": 13211,
+                                "nombre": "Algoritmos Numéricos",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    10122,
+                                    10129
+                                ],
+                                "abre_a": [
+                                    13227
+                                ]
+                            },
+                            {
+                                "id": 13212,
+                                "nombre": "Sistemas operativos",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13208
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13213,
+                                "nombre": "Procesamiento de lenguajes formales",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13205
+                                ],
+                                "abre_a": [
+                                    13218
+                                ]
+                            },
+                            {
+                                "id": 13214,
+                                "nombre": "Antropologia e ingeniería",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13203,
+                                    10128
+                                ],
+                                "abre_a": [
+                                    13219
+                                ]
+                            },
+                            {
+                                "id": 13215,
+                                "nombre": "Taller de bases de datos",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13207,
+                                    13209
+                                ],
+                                "abre_a": [
+                                    13030
+                                ]
+                            },
+                            {
+                                "id": 13216,
+                                "nombre": "Ingles IV",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13206
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13216,
+                                "nombre": "Inferencia y modelos estadísticos",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    10115
+                                ],
+                                "abre_a": [
+                                    13222
+                                ]
+                            },
+                            {
+                                "id": 13217,
+                                "nombre": "Redes de computadores",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13208
+                                ],
+                                "abre_a": [
+                                    13223
+                                ]
+                            },
+                            {
+                                "id": 13218,
+                                "nombre": "Lógica y teoría de la computación",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13213
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13219,
+                                "nombre": "Macroeconomía y globalización",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    10116,
+                                    13214
+                                ],
+                                "abre_a": [
+                                    13226
+                                ]
+                            },
+                            {
+                                "id": 13220,
+                                "nombre": "Métodos de ingeniería de software",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13209
+                                ],
+                                "abre_a": [
+                                    13225
+                                ]
+                            },
+                            {
+                                "id": 13221,
+                                "nombre": "Métodos de optimización",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    10129,
+                                    13210
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13222,
+                                "nombre": "Análisis de datos",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    13216
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13223,
+                                "nombre": "Sistemas de comunicación",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    13217
+                                ],
+                                "abre_a": [
+                                    13228,
+                                    13234
+                                ]
+                            },
+                            {
+                                "id": 13224,
+                                "nombre": "Finanzas y contabilidad",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    10116
+                                ],
+                                "abre_a": [
+                                    13229,
+                                    13239
+                                ]
+                            },
+                            {
+                                "id": 13225,
+                                "nombre": "Administración de proyectos de software",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    13220
+                                ],
+                                "abre_a": [
+                                    13030
+                                ]
+                            },
+                            {
+                                "id": 13226,
+                                "nombre": "Ingeniería y sociedad",
+                                "semestre": 9,
+                                "prerrequisitos": [
+                                    13219
+                                ],
+                                "abre_a": [
+                                    13239
+                                ]
+                            },
+                            {
+                                "id": 13227,
+                                "nombre": "Modelación y simulación",
+                                "semestre": 9,
+                                "prerrequisitos": [
+                                    13211
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13228,
+                                "nombre": "Sistemas distribuidos",
+                                "semestre": 9,
+                                "prerrequisitos": [
+                                    13223
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13229,
+                                "nombre": "Evaluación de proyectos",
+                                "semestre": 9,
+                                "prerrequisitos": [
+                                    13224
+                                ],
+                                "abre_a": [
+                                    13235
+                                ]
+                            },
+                            {
+                                "id": 13030,
+                                "nombre": "Taller de ingeniería de software",
+                                "semestre": 9,
+                                "prerrequisitos": [
+                                    13215,
+                                    13225
+                                ],
+                                "abre_a": [
+                                    13235
+                                ]
+                            },
+                            {
+                                "id": 13231,
+                                "nombre": "Tópicos de especialidad I",
+                                "semestre": 10,
+                                "prerrequisitos": [],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13232,
+                                "nombre": "Tópicos de especialidad II",
+                                "semestre": 10,
+                                "prerrequisitos": [],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13233,
+                                "nombre": "Tópicos de especialidad III",
+                                "semestre": 10,
+                                "prerrequisitos": [],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13234,
+                                "nombre": "Seguridad y auditoría informática",
+                                "semestre": 10,
+                                "prerrequisitos": [
+                                    13223
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13235,
+                                "nombre": "Proyecto de ingeniería informática",
+                                "semestre": 10,
+                                "prerrequisitos": [
+                                    13229,
+                                    13030
+                                ],
+                                "abre_a": [
+                                    13240
+                                ]
+                            },
+                            {
+                                "id": 13236,
+                                "nombre": "Tópicos de especialidad IV",
+                                "semestre": 11,
+                                "prerrequisitos": [],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13237,
+                                "nombre": "Tópicos de especialidad V",
+                                "semestre": 11,
+                                "prerrequisitos": [],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13238,
+                                "nombre": "Tópicos de especialidad VI",
+                                "semestre": 11,
+                                "prerrequisitos": [],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13239,
+                                "nombre": "Dirección y gestión de empresas",
+                                "semestre": 11,
+                                "prerrequisitos": [
+                                    13224,
+                                    13226
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13240,
+                                "nombre": "Seminario de informática",
+                                "semestre": 11,
+                                "prerrequisitos": [
+                                    13235
+                                ],
+                                "abre_a": [
+                                    13241
+                                ]
+                            },
+                            {
+                                "id": 13241,
+                                "nombre": "Trabajo de titulación",
+                                "semestre": 12,
+                                "prerrequisitos": [
+                                    13240
+                                ],
+                                "abre_a": []
+                            }
+                        ]
+                    },
+                    {
+                        "plan": "2001.1",
+                        "configuracion": {
+                            "total_semestres": 12
+                        },
+                        "asignaturas": [
+                            {
+                                "id": 10001,
+                                "nombre": "Cálculo",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10007,
+                                    10008,
+                                    10010,
+                                    10009,
+                                    10013
+                                ]
+                            },
+                            {
+                                "id": 10002,
+                                "nombre": "Álgebra",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10008
+                                ]
+                            },
+                            {
+                                "id": 10003,
+                                "nombre": "Física",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    10010
+                                ]
+                            },
+                            {
+                                "id": 10004,
+                                "nombre": "Introducción a la Química",
+                                "semestre": 1,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    13012
+                                ]
+                            },
+                            {
+                                "id": 13006,
+                                "nombre": "Fundamentos de Programación",
+                                "semestre": 2,
+                                "prerrequisitos": [],
+                                "abre_a": [
+                                    13007,
+                                    13008
+                                ]
+                            },
+                            {
+                                "id": 10007,
+                                "nombre": "Cálculo Avanzado",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10001
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 10008,
+                                "nombre": "Ecuaciones Diferenciales",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10001,
+                                    10002
+                                ],
+                                "abre_a": [
+                                    13008,
+                                    13010
+                                ]
+                            },
+                            {
+                                "id": 10010,
+                                "nombre": "Electromagnetismo y Física Moderna",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    10001,
+                                    10003
+                                ],
+                                "abre_a": [
+                                    13012,
+                                    13014
+                                ]
+                            },
+                            {
+                                "id": 13007,
+                                "nombre": "Lenguajes y Paradigmas de Programación",
+                                "semestre": 3,
+                                "prerrequisitos": [
+                                    13006
+                                ],
+                                "abre_a": [
+                                    13009,
+                                    13011
+                                ]
+                            },
+                            {
+                                "id": 10009,
+                                "nombre": "Probabilidad y Estadística",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10001
+                                ],
+                                "abre_a": [
+                                    13017
+                                ]
+                            },
+                            {
+                                "id": 10013,
+                                "nombre": "Microeconomía",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10001
+                                ],
+                                "abre_a": [
+                                    10014
+                                ]
+                            },
+                            {
+                                "id": 13008,
+                                "nombre": "Tópicos de Matemáticas I - Informática",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10008,
+                                    13006
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13009,
+                                "nombre": "Estructura de Datos y Algoritmos",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    13007
+                                ],
+                                "abre_a": [
+                                    13013
+                                ]
+                            },
+                            {
+                                "id": 13010,
+                                "nombre": "Estructuras Discretas",
+                                "semestre": 4,
+                                "prerrequisitos": [
+                                    10008
+                                ],
+                                "abre_a": [
+                                    13014
+                                ]
+                            },
+                            {
+                                "id": 10014,
+                                "nombre": "Macroeconomía",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    10013
+                                ],
+                                "abre_a": [
+                                    10012,
+                                    13021
+                                ]
+                            },
+                            {
+                                "id": 13011,
+                                "nombre": "Autómatas y Lenguajes Formales",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    13007
+                                ],
+                                "abre_a": [
+                                    13015,
+                                    13016
+                                ]
+                            },
+                            {
+                                "id": 13012,
+                                "nombre": "Fundamentos de Procesos Productivos",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    10004,
+                                    10010
+                                ],
+                                "abre_a": [
+                                    13021
+                                ]
+                            },
+                            {
+                                "id": 13013,
+                                "nombre": "Algoritmos Avanzados",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    13009
+                                ],
+                                "abre_a": [
+                                    13018,
+                                    13019,
+                                    13020
+                                ]
+                            },
+                            {
+                                "id": 13014,
+                                "nombre": "Organización de Computadores",
+                                "semestre": 5,
+                                "prerrequisitos": [
+                                    10010,
+                                    13010
+                                ],
+                                "abre_a": [
+                                    13017,
+                                    13018,
+                                    13020
+                                ]
+                            },
+                            {
+                                "id": 10012,
+                                "nombre": "Finanzas",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    10014
+                                ],
+                                "abre_a": [
+                                    10017,
+                                    10018
+                                ]
+                            },
+                            {
+                                "id": 13015,
+                                "nombre": "Lógica y Teoría de Computación",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13011
+                                ],
+                                "abre_a": [
+                                    13023,
+                                    10015
+                                ]
+                            },
+                            {
+                                "id": 13016,
+                                "nombre": "Compiladores",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13011
+                                ],
+                                "abre_a": [
+                                    10015
+                                ]
+                            },
+                            {
+                                "id": 13017,
+                                "nombre": "Comunicación de Datos",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    10009,
+                                    13014
+                                ],
+                                "abre_a": [
+                                    13022,
+                                    10015
+                                ]
+                            },
+                            {
+                                "id": 13018,
+                                "nombre": "Sistemas Operativos",
+                                "semestre": 6,
+                                "prerrequisitos": [
+                                    13013,
+                                    13014
+                                ],
+                                "abre_a": [
+                                    13026,
+                                    10015
+                                ]
+                            },
+                            {
+                                "id": 13019,
+                                "nombre": "Métodos de Optimización",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13013
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13020,
+                                "nombre": "Computación Paralela",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13013,
+                                    13014
+                                ],
+                                "abre_a": [
+                                    13037,
+                                    13038
+                                ]
+                            },
+                            {
+                                "id": 13021,
+                                "nombre": "Ingeniería de Sistemas",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    10014,
+                                    13012
+                                ],
+                                "abre_a": [
+                                    13024,
+                                    13025
+                                ]
+                            },
+                            {
+                                "id": 13022,
+                                "nombre": "Redes de Comunicación",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13017
+                                ],
+                                "abre_a": [
+                                    13026
+                                ]
+                            },
+                            {
+                                "id": 13023,
+                                "nombre": "Fundamentos de Base de Datos",
+                                "semestre": 7,
+                                "prerrequisitos": [
+                                    13015
+                                ],
+                                "abre_a": [
+                                    13024,
+                                    13027
+                                ]
+                            },
+                            {
+                                "id": 10015,
+                                "nombre": "Antropología e Ingeniería",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    13015,
+                                    13016,
+                                    13017,
+                                    13018
+                                ],
+                                "abre_a": [
+                                    13029,
+                                    13030
+                                ]
+                            },
+                            {
+                                "id": 13024,
+                                "nombre": "Fundamentos de Ingeniería de Software",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    13021,
+                                    13023
+                                ],
+                                "abre_a": [
+                                    13028,
+                                    13030,
+                                    13031
+                                ]
+                            },
+                            {
+                                "id": 13025,
+                                "nombre": "Control y Simulación",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    13021
+                                ],
+                                "abre_a": [
+                                    13031
+                                ]
+                            },
+                            {
+                                "id": 13026,
+                                "nombre": "Sistemas Distribuidos",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    13018,
+                                    13022
+                                ],
+                                "abre_a": [
+                                    13031,
+                                    13037,
+                                    13038
+                                ]
+                            },
+                            {
+                                "id": 13027,
+                                "nombre": "Proyectos de Base de Datos",
+                                "semestre": 8,
+                                "prerrequisitos": [
+                                    13023
+                                ],
+                                "abre_a": [
+                                    13028,
+                                    13031
+                                ]
+                            },
+                            {
+                                "id": 10017,
+                                "nombre": "Evaluación de Proyectos",
+                                "semestre": 9,
+                                "prerrequisitos": [
+                                    10012
+                                ],
+                                "abre_a": [
+                                    13032
+                                ]
+                            },
+                            {
+                                "id": 13028,
+                                "nombre": "Proyectos de Ingeniería de Software",
+                                "semestre": 9,
+                                "prerrequisitos": [
+                                    13024,
+                                    13027
+                                ],
+                                "abre_a": [
+                                    13032
+                                ]
+                            },
+                            {
+                                "id": 13029,
+                                "nombre": "Comportamiento Humano en el Trabajo",
+                                "semestre": 9,
+                                "prerrequisitos": [
+                                    10015
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13030,
+                                "nombre": "Interfaz Humano Computador",
+                                "semestre": 9,
+                                "prerrequisitos": [
+                                    10015,
+                                    13024
+                                ],
+                                "abre_a": [
+                                    13032
+                                ]
+                            },
+                            {
+                                "id": 13031,
+                                "nombre": "Electivo Profesional I",
+                                "semestre": 9,
+                                "prerrequisitos": [
+                                    13024,
+                                    13025,
+                                    13026,
+                                    13027
+                                ],
+                                "abre_a": [
+                                    13033,
+                                    13034,
+                                    13035,
+                                    13039
+                                ]
+                            },
+                            {
+                                "id": 10018,
+                                "nombre": "Administración de Empresas",
+                                "semestre": 10,
+                                "prerrequisitos": [
+                                    10012
+                                ],
+                                "abre_a": [
+                                    13036
+                                ]
+                            },
+                            {
+                                "id": 13032,
+                                "nombre": "Proyecto de Ingeniería Informática",
+                                "semestre": 10,
+                                "prerrequisitos": [
+                                    10017,
+                                    13028,
+                                    13030
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13033,
+                                "nombre": "Electivo Profesional II",
+                                "semestre": 10,
+                                "prerrequisitos": [
+                                    13031
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13034,
+                                "nombre": "Electivo Profesional III",
+                                "semestre": 10,
+                                "prerrequisitos": [
+                                    13031
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13035,
+                                "nombre": "Electivo Profesional IV",
+                                "semestre": 10,
+                                "prerrequisitos": [
+                                    13031
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13036,
+                                "nombre": "Dirección y Gestión de Empresas",
+                                "semestre": 11,
+                                "prerrequisitos": [
+                                    10018
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13037,
+                                "nombre": "Electivo Profesional V",
+                                "semestre": 11,
+                                "prerrequisitos": [
+                                    13020,
+                                    13026
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13038,
+                                "nombre": "Electivo Profesional VI",
+                                "semestre": 11,
+                                "prerrequisitos": [
+                                    13020,
+                                    13026
+                                ],
+                                "abre_a": []
+                            },
+                            {
+                                "id": 13039,
+                                "nombre": "Seminario de Titulación",
+                                "semestre": 11,
+                                "prerrequisitos": [
+                                    13031
+                                ],
+                                "abre_a": [
+                                    13040
+                                ]
+                            },
+                            {
+                                "id": 13040,
+                                "nombre": "Trabajo de Titulación",
+                                "semestre": 12,
+                                "prerrequisitos": [
+                                    13039
                                 ],
                                 "abre_a": []
                             }
