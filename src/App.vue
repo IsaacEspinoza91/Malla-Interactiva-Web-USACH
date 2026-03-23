@@ -262,7 +262,7 @@ const handleToggleApprove = (courseId) => {
     gap: 1rem;
   }
   .main-content {
-    padding: 1rem 0.5rem;
+    padding: 1rem;
     border-radius: 8px;
   }
 }

@@ -90,6 +90,6 @@ h1, h2, h3, p {
 @media (max-width: 768px) {
   #app {
     width: 100%;
-    padding: 1rem 0.25rem;
+    padding: 1rem;
   }
 }
