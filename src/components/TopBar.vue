@@ -2,29 +2,30 @@
 import { computed } from 'vue';
 
 const props = defineProps({
-  careers: Array,
+  universities: Array,
   activeMode: String,
+  selectedUniversity: String,
   selectedCareer: Number,
   selectedPlan: String,
 });
 
-const emit = defineEmits(['update:mode', 'update:career', 'update:plan']);
+const emit = defineEmits(['update:mode', 'update:university', 'update:career', 'update:plan']);
 
-const availablePlans = computed(() => {
-  const matching = props.careers.filter(c => c.codigo === props.selectedCareer).map(c => c.plan);
-  return [...new Set(matching)];
+const uniqueUniversities = computed(() => {
+  return props.universities.map(u => ({ id: u.id, nombre: u.nombre }));
 });
 
-const uniqueCareers = computed(() => {
-  const seen = new Set();
-  const arr = [];
-  for (const c of props.careers) {
-    if (!seen.has(c.codigo)) {
-      seen.add(c.codigo);
-      arr.push({ codigo: c.codigo, carrera: `${c.carrera} - ${c.universidad}` });
-    }
-  }
-  return arr;
+const availableCareers = computed(() => {
+  const uni = props.universities.find(u => u.id === props.selectedUniversity);
+  return uni ? uni.carreras : [];
+});
+
+const availablePlans = computed(() => {
+  const uni = props.universities.find(u => u.id === props.selectedUniversity);
+  if (!uni) return [];
+  const career = uni.carreras.find(c => c.codigo === props.selectedCareer);
+  if (!career) return [];
+  return career.versiones.map(v => v.plan);
 });
 </script>
 
@@ -36,10 +37,19 @@ const uniqueCareers = computed(() => {
     
     <div class="controls">
       <div class="select-group">
+        <label>Universidad</label>
+        <select :value="selectedUniversity" @change="e => emit('update:university', e.target.value)">
+          <option v-for="u in uniqueUniversities" :key="u.id" :value="u.id">
+            {{ u.nombre }}
+          </option>
+        </select>
+      </div>
+
+      <div class="select-group">
         <label>Carrera</label>
         <select :value="selectedCareer" @change="e => emit('update:career', parseInt(e.target.value))">
-          <option v-for="c in uniqueCareers" :key="c.codigo" :value="c.codigo">
-            {{ c.carrera }}
+          <option v-for="c in availableCareers" :key="c.codigo" :value="c.codigo">
+            {{ c.nombre }}
           </option>
         </select>
       </div>

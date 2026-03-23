@@ -13,6 +13,7 @@ const props = defineProps({
     class="course-card"
     :class="[`status-${status}`, `mode-${activeMode.replace(' ', '-').toLowerCase()}`]"
   >
+    <div class="course-code">{{ course.id }}</div>
     <div class="course-name">{{ course.nombre }}</div>
   </div>
 </template>

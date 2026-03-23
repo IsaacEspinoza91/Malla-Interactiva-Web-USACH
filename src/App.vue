@@ -1,23 +1,52 @@
 <script setup>
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 import TopBar from './components/TopBar.vue';
 import MallaGrid from './components/MallaGrid.vue';
-import mallaData from '../data.json';
-
-// Mapa de carreras
-const careers = [mallaData];
+import universitiesData from '../data.json';
 
 // State
+const universities = universitiesData;
+
 const activeMode = ref('Ver Malla'); // 'Ver Malla' o 'Malla Simulada'
-const selectedCareer = ref(careers[0].codigo);
-const selectedPlan = ref(careers[0].plan);
+const selectedUniversity = ref(universities[0].id);
+const selectedCareer = ref(universities[0].carreras[0].codigo);
+const selectedPlan = ref(universities[0].carreras[0].versiones[0].plan);
 
 const hoveredCourseId = ref(null);
 const approvedCourseIds = ref(new Set());
 
 // Derived state
 const activeData = computed(() => {
-  return careers.find(c => c.codigo === selectedCareer.value && c.plan === selectedPlan.value) || careers[0];
+  const uni = universities.find(u => u.id === selectedUniversity.value) || universities[0];
+  const career = uni.carreras.find(c => c.codigo === selectedCareer.value) || uni.carreras[0];
+  const version = career.versiones.find(v => v.plan === selectedPlan.value) || career.versiones[0];
+  
+  return {
+    codigo: career.codigo,
+    carrera: career.nombre,
+    universidad: uni.nombre,
+    plan: version.plan,
+    configuracion: version.configuracion,
+    asignaturas: version.asignaturas
+  };
+});
+
+// Watchers: when higher level changes, reset lower levels to prevent invalid state
+watch(selectedUniversity, (newUniId) => {
+  const uni = universities.find(u => u.id === newUniId);
+  if (uni && uni.carreras.length > 0) {
+    selectedCareer.value = uni.carreras[0].codigo;
+  }
+});
+
+watch(selectedCareer, (newCareerId) => {
+  const uni = universities.find(u => u.id === selectedUniversity.value);
+  if (uni) {
+    const career = uni.carreras.find(c => c.codigo === newCareerId);
+    if (career && career.versiones.length > 0) {
+      selectedPlan.value = career.versiones[0].plan;
+    }
+  }
 });
 
 // Handlers
@@ -73,11 +102,13 @@ const handleToggleApprove = (courseId) => {
 <template>
   <div class="app-container">
     <TopBar 
-      :careers="careers"
+      :universities="universities"
       :activeMode="activeMode"
+      :selectedUniversity="selectedUniversity"
       :selectedCareer="selectedCareer"
       :selectedPlan="selectedPlan"
       @update:mode="handleModeChange"
+      @update:university="(val) => selectedUniversity = val"
       @update:career="(val) => selectedCareer = val"
       @update:plan="(val) => selectedPlan = val"
     />
@@ -107,7 +138,14 @@ const handleToggleApprove = (courseId) => {
     </div>
 
     <footer class="app-footer">
-      <p>Los datos de las asignaturas provienen del Sistema Académico Integrado (antes LOA). La información está actualizada al 3 de marzo de 2026; cualquier consulta posterior a esta fecha podría presentar discrepancias respecto al estado actual.</p>
+      <p>Los datos de las asignaturas provienen del <strong>Sistema Académico Integrado (ex LOA)</strong> y del <a href="https://registro.usach.cl/index.php?ct=catalogo" target="_blank">Catálogo de Registro Curricular</a>.</p>
+      <p>
+      <em>Última actualización: 3 de marzo de 2026.</em>
+    </p>
+    <p class="warning">
+      <strong>Aviso:</strong> Esta plataforma es una <strong>guía referencial no oficial</strong>. 
+      Puede contener errores.
+    </p>
       
       <div class="footer-bottom">
         <p class="designer">Diseñado por Isaac Espinoza</p>
