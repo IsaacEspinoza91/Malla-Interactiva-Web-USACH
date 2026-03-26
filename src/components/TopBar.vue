@@ -33,6 +33,9 @@ const availablePlans = computed(() => {
   <header class="topbar">
     <div class="logo">
       <h1>Malla Interactiva USACH</h1>
+      <p class="seo-description">
+        Planifica y simula tu avance académico en las carreras de <strong>Ingeniería de Ejecución en Computación e Informática</strong> e <strong>Ingeniería Civil en Informática</strong>.
+      </p>
     </div>
     
     <div class="controls">
@@ -91,11 +94,29 @@ const availablePlans = computed(() => {
   padding-bottom: 1.5rem;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  max-width: 500px;
+}
+
 .logo h1 {
   color: var(--color-green);
   font-size: 1.7rem;
   font-weight: 700;
   letter-spacing: -0.5px;
+}
+
+.seo-description {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.seo-description strong {
+  font-weight: 600;
+  color: var(--text-primary);
 }
 
 .controls {
